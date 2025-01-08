@@ -17,4 +17,4 @@ jobs:
       - name: Installing HTMLLinter
         run: npm install --save-dev htmlhint
       - name: Run HTML Listner
-        run: npm htmlhint "**/*.html"
+        run: npx htmlhint "**/*.html"
